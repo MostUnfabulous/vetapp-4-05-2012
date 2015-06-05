@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TableLayout android:id="@+id/tableLayout3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:id="@+id/tableRow10" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+                    <TableRow android:id="@+id/tableRow11" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+                    <TableRow android:id="@+id/tableRow12" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+                    <TableRow android:id="@+id/tableRow13" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+                </TableLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TableLayout android:id="@+id/tableLayout4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:id="@+id/tableRow14" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+                    <TableRow android:id="@+id/tableRow15" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+                    <TableRow android:id="@+id/tableRow16" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+                    <TableRow android:id="@+id/tableRow17" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <Button android:id="@+id/button2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="CalenderClickHandler" android:text="@string/viewcal"/>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@+id/button1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="DirectionClickHandler" android:text="@string/getdir"/>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="0dp"
+            android:layout_height="396dp"
+            android:layout_weight="1" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_logo" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="LogoutClickHandler"
+            android:text="@string/logout" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="AboutClickHandler"
+            android:text="@string/about" />
+    </LinearLayout>
+
+    />
+
+     />
+
+     />
+ />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome">Welcome to E-Point. Please enter your passcode</string>
+    <string name="app_name">E-Point</string>
+    <string name="login">Login</string>
+    <string name="myClickHandler">myClickHandler</string>
+    <string name="Copass">Correct Password</string>
+    <string name="Incopass">Incorrect Login Details</string>
+    <string name="viewcal">View Calendar</string>
+    <string name="changecode">Change Passcode</string>
+    <string name="getdir">Get Directions</string>
+    <string name="about">About</string>
+    <string name="logout">Log Out</string>
+    <string name="version">Version:  Alpha 1.2</string>
+    <string name="build">Build: 1.2.16</string>
+    <string name="place">Placeholder</string>
+    <string name="Welcome">Welcome</string>
+    <string name="vMap">View Map</string>
+    <string name="hello">Hello World, CalendarActivity!</string>
+    <string name="usrNm">User Name</string>
+    <string name="passWrd">Password</string>
+
+</resources>
